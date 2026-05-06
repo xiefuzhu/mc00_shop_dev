@@ -1,0 +1,12 @@
+{
+  "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/macos/Runner/MainFlutterWindow.swift" : {
+    "abi-baseline-json" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/mc00_shop.abi.json",
+    "const-values" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/Runner-primary.swiftconstvalues",
+    "dependencies" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/Runner-primary.d",
+    "diagnostics" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/Runner-primary.dia",
+    "objc-header" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/mc00_shop-Swift.h",
+    "swiftdoc" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/mc00_shop.swiftdoc",
+    "swiftmodule" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/mc00_shop.swiftmodule",
+    "swiftsourceinfo" : "/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Intermediates.noindex/Runner.build/Release/Runner.build/Objects-normal/arm64/mc00_shop.swiftsourceinfo"
+  }
+}

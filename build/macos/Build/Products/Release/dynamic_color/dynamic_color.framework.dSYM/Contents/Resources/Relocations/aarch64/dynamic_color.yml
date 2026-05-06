@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Products/Release/dynamic_color/dynamic_color.framework/Versions/A/dynamic_color'
+relocations:
+  - { offset: 0xB588E, size: 0x8, addend: 0x0, symName: _dynamic_colorVersionString, symObjAddr: 0x0, symBinAddr: 0x3D50, symSize: 0x0 }
+  - { offset: 0xB58C5, size: 0x8, addend: 0x0, symName: _dynamic_colorVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3D80, symSize: 0x0 }
+  - { offset: 0xB5903, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x13A0, symSize: 0x4 }
+  - { offset: 0xB5A51, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0x578, symBinAddr: 0x1918, symSize: 0x44 }
+  - { offset: 0xB5A65, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x5BC, symBinAddr: 0x195C, symSize: 0x48 }
+  - { offset: 0xB5A79, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0x604, symBinAddr: 0x19A4, symSize: 0x50 }
+  - { offset: 0xB5A8D, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginCMa', symObjAddr: 0x654, symBinAddr: 0x19F4, symSize: 0x20 }
+  - { offset: 0xB5AAC, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0xBD4, symBinAddr: 0x1F74, symSize: 0x50 }
+  - { offset: 0xB5AC0, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0xC24, symBinAddr: 0x1FC4, symSize: 0x24 }
+  - { offset: 0xB5AD4, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0xC48, symBinAddr: 0x1FE8, symSize: 0x20 }
+  - { offset: 0xB5B84, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x13A0, symSize: 0x4 }
+  - { offset: 0xB5B98, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginCACycfC', symObjAddr: 0x4, symBinAddr: 0x13A4, symSize: 0x18 }
+  - { offset: 0xB5BBE, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginC8register4withySo07FlutterE9Registrar_p_tFZTo', symObjAddr: 0x1C, symBinAddr: 0x13BC, symSize: 0x30 }
+  - { offset: 0xB5C59, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x4C, symBinAddr: 0x13EC, symSize: 0x364 }
+  - { offset: 0xB5E84, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x3B0, symBinAddr: 0x1750, symSize: 0x78 }
+  - { offset: 0xB5EAE, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginCACycfc', symObjAddr: 0x428, symBinAddr: 0x17C8, symSize: 0x30 }
+  - { offset: 0xB5EE6, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginCACycfcTo', symObjAddr: 0x458, symBinAddr: 0x17F8, symSize: 0x3C }
+  - { offset: 0xB5F1B, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginCfD', symObjAddr: 0x494, symBinAddr: 0x1834, symSize: 0x30 }
+  - { offset: 0xB5F95, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginC8register4withySo07FlutterE9Registrar_p_tFZTf4nd_n', symObjAddr: 0x4C4, symBinAddr: 0x1864, symSize: 0xB4 }
+  - { offset: 0xB602B, size: 0x8, addend: 0x0, symName: '_$s13dynamic_color18DynamicColorPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x674, symBinAddr: 0x1A14, symSize: 0x560 }
+...

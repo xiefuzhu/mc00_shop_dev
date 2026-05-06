@@ -1,0 +1,38 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/xiefuzhu/Desktop/code/flutter/mc00_shop/build/macos/Build/Products/Release/system_theme/system_theme.framework/Versions/A/system_theme'
+relocations:
+  - { offset: 0xB8512, size: 0x8, addend: 0x0, symName: _system_themeVersionString, symObjAddr: 0x0, symBinAddr: 0x51B0, symSize: 0x0 }
+  - { offset: 0xB8549, size: 0x8, addend: 0x0, symName: _system_themeVersionNumber, symObjAddr: 0x30, symBinAddr: 0x51E0, symSize: 0x0 }
+  - { offset: 0xB85A3, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC9eventSink33_786623C371E996992BD836EB2FBEB8B9LLyypSgcSgvpfi', symObjAddr: 0x0, symBinAddr: 0x1450, symSize: 0x10 }
+  - { offset: 0xB87EC, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x220, symBinAddr: 0x1670, symSize: 0xC0 }
+  - { offset: 0xB8800, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginCfETo', symObjAddr: 0x7C0, symBinAddr: 0x1C10, symSize: 0x20 }
+  - { offset: 0xB883A, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x7E0, symBinAddr: 0x1C30, symSize: 0x60 }
+  - { offset: 0xB8872, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x840, symBinAddr: 0x1C90, symSize: 0xC0 }
+  - { offset: 0xB88C9, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0xA80, symBinAddr: 0x1ED0, symSize: 0x40 }
+  - { offset: 0xB88DD, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0xAC0, symBinAddr: 0x1F10, symSize: 0x40 }
+  - { offset: 0xB89A1, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0xFF0, symBinAddr: 0x2440, symSize: 0x20 }
+  - { offset: 0xB89B5, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginCMa', symObjAddr: 0x1010, symBinAddr: 0x2460, symSize: 0x20 }
+  - { offset: 0xB89C9, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x1050, symBinAddr: 0x24A0, symSize: 0x10 }
+  - { offset: 0xB89DD, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x1060, symBinAddr: 0x24B0, symSize: 0x30 }
+  - { offset: 0xB89F1, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x1090, symBinAddr: 0x24E0, symSize: 0x30 }
+  - { offset: 0xB8A10, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x1390, symBinAddr: 0x27E0, symSize: 0x20 }
+  - { offset: 0xB8AEB, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC8register4withySo07FlutterE9Registrar_p_tFZ', symObjAddr: 0x10, symBinAddr: 0x1460, symSize: 0x10 }
+  - { offset: 0xB8AFF, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginCACycfC', symObjAddr: 0x20, symBinAddr: 0x1470, symSize: 0x20 }
+  - { offset: 0xB8B25, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC8register4withySo07FlutterE9Registrar_p_tFZTo', symObjAddr: 0x40, symBinAddr: 0x1490, symSize: 0x30 }
+  - { offset: 0xB8D04, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x70, symBinAddr: 0x14C0, symSize: 0x130 }
+  - { offset: 0xB8D9B, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x1A0, symBinAddr: 0x15F0, symSize: 0x80 }
+  - { offset: 0xB8DEF, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF', symObjAddr: 0x2E0, symBinAddr: 0x1730, symSize: 0xD0 }
+  - { offset: 0xB8E6B, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo', symObjAddr: 0x3B0, symBinAddr: 0x1800, symSize: 0xD0 }
+  - { offset: 0xB8E8A, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF', symObjAddr: 0x480, symBinAddr: 0x18D0, symSize: 0x70 }
+  - { offset: 0xB8EFA, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTo', symObjAddr: 0x4F0, symBinAddr: 0x1940, symSize: 0xF0 }
+  - { offset: 0xB8F85, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC0A15ColorsDidChangeyy10Foundation12NotificationVF', symObjAddr: 0x5E0, symBinAddr: 0x1A30, symSize: 0xA0 }
+  - { offset: 0xB9019, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC0A15ColorsDidChangeyy10Foundation12NotificationVFTo', symObjAddr: 0x680, symBinAddr: 0x1AD0, symSize: 0x80 }
+  - { offset: 0xB902D, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginCACycfc', symObjAddr: 0x700, symBinAddr: 0x1B50, symSize: 0x40 }
+  - { offset: 0xB9060, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginCACycfcTo', symObjAddr: 0x740, symBinAddr: 0x1B90, symSize: 0x50 }
+  - { offset: 0xB9095, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginCfD', symObjAddr: 0x790, symBinAddr: 0x1BE0, symSize: 0x30 }
+  - { offset: 0xB90E3, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC8register4withySo07FlutterE9Registrar_p_tFZTf4nd_n', symObjAddr: 0x900, symBinAddr: 0x1D50, symSize: 0x180 }
+  - { offset: 0xB91BC, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n', symObjAddr: 0xB00, symBinAddr: 0x1F50, symSize: 0x110 }
+  - { offset: 0xB92DF, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC24getCurrentAccentColorMap33_786623C371E996992BD836EB2FBEB8B9LLSDySSypGSgyFTf4d_n', symObjAddr: 0xC10, symBinAddr: 0x2060, symSize: 0x3E0 }
+  - { offset: 0xB95D0, size: 0x8, addend: 0x0, symName: '_$s12system_theme17SystemThemePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x10C0, symBinAddr: 0x2510, symSize: 0x270 }
+...
