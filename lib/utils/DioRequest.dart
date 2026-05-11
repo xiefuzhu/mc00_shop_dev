@@ -29,7 +29,12 @@ class DioRequest {
         },
 
         onError: (error, handler) {
-          handler.reject(error);
+          handler.reject(
+            DioException(
+              requestOptions: error.requestOptions,
+              message: error.response?.data["msg"] ?? "请求失败",
+            ),
+          );
         },
       ),
     );
@@ -44,16 +49,24 @@ class DioRequest {
         return data["result"]; //真正的数据
       }
       //抛出异常，交给外部去处理
-      throw Exception(data["message"] ?? "请求失败");
+      throw DioException(
+        requestOptions: res.requestOptions,
+        message: data["msg"] ?? "请求失败",
+      );
     } catch (e) {
       //不是我怎么错的
-      throw Exception("请求失败：$e");
+      rethrow; //不改变原来的异常类型
     }
   } //笨蛋腐竹忘记try了
 
   get(String url, {Map<String, dynamic>? params}) async {
     return await _handelResponse(_dio.get(url, queryParameters: params));
   }
+
+  post(String url, {Map<String, dynamic>? params}) async {
+    return await _handelResponse(_dio.post(url, data: params));
+  }
+  //其他的请求方法就不写了，get和post足够了，剩下的就自己去看dio文档，改一下就行了，没什么难的
 
   //进一步返回处理函数
 }
