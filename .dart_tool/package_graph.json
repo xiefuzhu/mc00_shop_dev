@@ -12,6 +12,7 @@
         "dio",
         "dynamic_color",
         "flutter",
+        "get",
         "system_theme"
       ],
       "devDependencies": [
@@ -42,6 +43,14 @@
         "stream_channel",
         "test_api",
         "vector_math"
+      ]
+    },
+    {
+      "name": "get",
+      "version": "4.7.3",
+      "dependencies": [
+        "flutter",
+        "web"
       ]
     },
     {
@@ -188,6 +197,11 @@
       ]
     },
     {
+      "name": "web",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
       "name": "dio_web_adapter",
       "version": "2.1.2",
       "dependencies": [
@@ -294,11 +308,6 @@
         "source_span",
         "string_scanner"
       ]
-    },
-    {
-      "name": "web",
-      "version": "1.1.1",
-      "dependencies": []
     },
     {
       "name": "typed_data",
