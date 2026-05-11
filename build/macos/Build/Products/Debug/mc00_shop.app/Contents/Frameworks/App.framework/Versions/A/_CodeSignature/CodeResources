@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.bin</key>
 		<data>
-		CXvyTvj/PRSyX6hzTKj8mCYW4Es=
+		MnyDkwmZ7QtT89saUw8hnRGMof8=
 		</data>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Resources/flutter_assets/kernel_blob.bin</key>
 		<data>
-		m5Wje2JAMsSb5HtoH6KIbBXwzLc=
+		ktrRkOVYoHWPTm6EPAbRq+HiASg=
 		</data>
 		<key>Resources/flutter_assets/lib/assets/%E8%B5%84%E6%BA%90.md</key>
 		<data>
@@ -112,6 +112,50 @@
 		<data>
 		hUCtgBU81ZBdChEh02kceRNe0pM=
 		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_collect.png</key>
+		<data>
+		ILMWdsWVY0xHlhj7i2fcMSOijb4=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_history.png</key>
+		<data>
+		87233Nkn+Aw35wHviA+s1CRaJ+U=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_huawei.png</key>
+		<data>
+		JnriEaTjT6qHmckOQdMK2Mwh5Ww=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_obligation.png</key>
+		<data>
+		tjtVNnGrVrO/27xh6k35jU4AXvs=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_order.png</key>
+		<data>
+		FWRgMmBv5OaEFKqFzbQUcCkqTBY=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_service.png</key>
+		<data>
+		dnIHWPlDCHRc3KJSBMASLIAX+Jk=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_settings.png</key>
+		<data>
+		UzEsOK6FgZW5HgY4ogZXSdwvOmQ=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_unevaluated.png</key>
+		<data>
+		pQ69c14EOuKLwBzEY61Fvc9IJKQ=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_unreceived.png</key>
+		<data>
+		zyCHbzAwZwJS3WqEn4HJvMbLF0Q=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_unshipped.png</key>
+		<data>
+		fC7lzT6ImaCImq4tixTliOLRDNE=
+		</data>
+		<key>Resources/flutter_assets/lib/assets/ic_user_vip.png</key>
+		<data>
+		BYImClDnB0fphyx5MNO839Urq6Q=
+		</data>
 		<key>Resources/flutter_assets/lib/assets/sort-vertical-02.png</key>
 		<data>
 		ZvFbjuKdxG7dD4S9uJytplwBaWE=
@@ -150,7 +194,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WOg50jOtzva6CUVpiYafUoCbf4jfbDpEljT0iOepF5c=
+			Hco0wdTNmnWuJ1zSYx/cn41Cs2SmFKjz1vDWnXKtDkU=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/FontManifest.json</key>
@@ -192,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M1OIwa1/ooZkJqbqr18Z0AvKZRf84NoKX4j1aasN4hc=
+			5FU2nlbmr3Vy5AEHu5TasAsxTJbuUr7pypll3xvEy50=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/lib/assets/%E8%B5%84%E6%BA%90.md</key>
@@ -326,6 +370,83 @@
 			<key>hash2</key>
 			<data>
 			b3wgmkOSPmwhYsYjU9odn9tqlM/J5ocw59jvZL2Y06c=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_collect.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SbnXZWm7MrI1/jO+4P4vOomGqvBZWr0B6wQb0bOwnVg=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_history.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BvqogJDDihedAKUxlfBNJHabkyI1pnVS8dMCqn6326E=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_huawei.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xpWLXdJm7FuRcrgnnmjZSaI5PN9IOavr3dEV1ffY1qg=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_obligation.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wSUX4C3ooosQsJxoLutC54TCEqBgsG5fG+lE3vOGH0s=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_order.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XFQP+f1KnWs7+0uc4TMJFLvsfCG4Jpcl1phUEWmIiQQ=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_service.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A6yQeNR2+qH0uUD1+31Xrisy6zPyfPunLYjybwn1oRg=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_settings.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+JK/sNZmN8CyYy4nDj1DRkNDXDOeI2UfP12mibDtNaw=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_unevaluated.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FdnHnM+rdj1b4h51G6ETRKzK6OQQABoYy/Djudaln7M=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_unreceived.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qc5tWK2FlJVvHmhEcMBBt6/2GbbBprnE/BEmC1ksy20=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_unshipped.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QrYZv9NWei6QO+ySqbEH58Lji5sRqFSmd2zHfOeONQU=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/lib/assets/ic_user_vip.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sLLgcrHzsVO/qyOGVmsJ/BclL9gzQta112Re3J9fhHw=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/lib/assets/sort-vertical-02.png</key>

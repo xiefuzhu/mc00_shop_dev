@@ -50,7 +50,7 @@ class _MainPageState extends State<MainPage> {
   }
 
   List<Widget> _getChildren() {
-    return [HomeView(), CategoryView(), CartView(), MinePage()];
+    return [HomeView(), CategoryView(), CartView(), MineView()];
   }
 
   @override

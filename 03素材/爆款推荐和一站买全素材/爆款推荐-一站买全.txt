@@ -1,0 +1,60 @@
+1.接口常量
+
+   static const String IN_VOGUE_LIST = "/hot/inVogue"; // 热榜推荐地址
+   static const String ONE_STOP_LIST = "/hot/oneStop"; // 一站式推荐地址
+
+2. api封装
+
+// 热榜推荐
+Future<SpecialRecommendResult> getInVogueListAPI() async {
+  // 返回请求
+  return SpecialRecommendResult.formJSON(
+    await dioRequest.get(HttpConstants.IN_VOGUE_LIST),
+  );
+}
+
+// 一站式推荐
+Future<SpecialRecommendResult> getOneStopListAPI() async {
+  // 返回请求
+  return SpecialRecommendResult.formJSON(
+    await dioRequest.get(HttpConstants.ONE_STOP_LIST),
+  );
+}
+
+3.初始化获取数据
+
+// 热榜推荐
+  SpecialRecommendResult _inVogueResult = SpecialRecommendResult(
+    id: "",
+    title: "",
+    subTypes: [],
+  );
+  // 一站式推荐
+  SpecialRecommendResult _oneStopResult = SpecialRecommendResult(
+    id: "",
+    title: "",
+    subTypes: [],
+  );
+
+// 获取热榜推荐列表
+  void _getInVogueList() async {
+    _inVogueResult = await getInVogueListAPI();
+    setState(() {});
+  }
+
+  // 获取一站式推荐列表
+  void _getOneStopList() async {
+    _oneStopResult = await getOneStopListAPI();
+    setState(() {});
+  }
+
+5. 传入数据
+
+      Expanded(
+                child: HmHot(result: _inVogueResult, type: "hot"),
+              ),
+              SizedBox(width: 10),
+              Expanded(
+                child: HmHot(result: _oneStopResult, type: "step"),
+              ),
+

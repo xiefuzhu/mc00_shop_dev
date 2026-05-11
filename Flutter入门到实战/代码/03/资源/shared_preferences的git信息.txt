@@ -1,0 +1,4 @@
+   shared_preferences:
+    git:
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
+      path: "packages/shared_preferences/shared_preferences"
