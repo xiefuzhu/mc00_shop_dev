@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_instance/src/extension_instance.dart';
+import 'package:mc00_shop/api/user.dart';
 import 'package:mc00_shop/pages/Cart/index.dart';
 import 'package:mc00_shop/pages/Category/index.dart';
 import 'package:mc00_shop/pages/Home/index.dart';
 import 'package:mc00_shop/pages/Mine/index.dart';
+import 'package:mc00_shop/stores/TokenManager.dart';
+import 'package:mc00_shop/stores/UserController.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -51,6 +56,22 @@ class _MainPageState extends State<MainPage> {
 
   List<Widget> _getChildren() {
     return [HomeView(), CategoryView(), CartView(), MineView()];
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    _initUser();
+  }
+
+  final Usercontroller _userController = Get.put(Usercontroller());
+
+  Future<void> _initUser() async {
+    await tokenManager.init(); //初始化token管理器
+    if (tokenManager.getToken().isNotEmpty) {
+      //如果token存在，说明用户之前登录过，尝试获取用户信息
+      _userController.updateUserInfo(await getUserProfileAPI());
+    }
   }
 
   @override

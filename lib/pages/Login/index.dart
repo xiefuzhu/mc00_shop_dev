@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/src/extension_instance.dart';
 import 'package:mc00_shop/api/user.dart';
+import 'package:mc00_shop/stores/TokenManager.dart';
 import 'package:mc00_shop/stores/UserController.dart';
+import 'package:mc00_shop/utils/LoadingDialog.dart';
 import 'package:mc00_shop/utils/ToastUtils.dart';
 
 class LoginPage extends StatefulWidget {
@@ -72,16 +74,23 @@ class _LoginPageState extends State<LoginPage> {
   _login() async {
     //调用登录接口，成功后跳转到主页
     try {
+      Loadingdialog.show(context, message: "登录中...");
+
       final res = await loginAPI({
         'account': _phoneController.text,
         'password': _codeController.text,
       });
 
       //登录成功，跳转到主页
+      Loadingdialog.hide(context);
       _usercontroller.updateUserInfo(res);
+      tokenManager.setToken(res.token); //写入持久化数据
+
       ToastUtils.showToast(context, "登录成功");
       Navigator.pop(context); //登录成功后返回上一页
     } catch (e) {
+      Loadingdialog.hide(context);
+
       //登录失败
       ToastUtils.showToast(context, (e as DioException).message ?? "登录失败");
     }

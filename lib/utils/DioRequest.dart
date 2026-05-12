@@ -1,6 +1,7 @@
 //基于dio进行二次封装
 import 'package:dio/dio.dart';
 import 'package:mc00_shop/constants/index.dart';
+import 'package:mc00_shop/stores/TokenManager.dart';
 
 class DioRequest {
   final _dio = Dio();
@@ -17,15 +18,25 @@ class DioRequest {
     _dio.interceptors.add(
       InterceptorsWrapper(
         onRequest: (requestOptions, handler) {
-          handler.next(requestOptions);
-        },
-        onResponse: (response, handler) {
-          //http状态码 200-300
-          if (response.statusCode! >= 200 && response.statusCode! <= 300) {
-            handler.next(response);
-            return;
+          //在请求头中添加token
+
+          if (tokenManager.getToken().isNotEmpty) {
+            requestOptions.headers = {
+              "Authorization": "Bearer ${tokenManager.getToken()}",
+            };
           }
-          handler.reject(DioException(requestOptions: response.requestOptions));
+          handler.next(requestOptions);
+          onResponse:
+          (response, handler) {
+            //http状态码 200-300
+            if (response.statusCode! >= 200 && response.statusCode! <= 300) {
+              handler.next(response);
+              return;
+            }
+            handler.reject(
+              DioException(requestOptions: response.requestOptions),
+            );
+          };
         },
 
         onError: (error, handler) {

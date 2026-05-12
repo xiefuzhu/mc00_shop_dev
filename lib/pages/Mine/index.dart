@@ -5,8 +5,11 @@ import 'package:get/get_instance/src/extension_instance.dart';
 import 'package:mc00_shop/api/mine.dart';
 import 'package:mc00_shop/components/Home/MC00MoreList.dart';
 import 'package:mc00_shop/components/Mine/Mc00Guess.dart';
+import 'package:mc00_shop/stores/TokenManager.dart';
 import 'package:mc00_shop/stores/UserController.dart';
+import 'package:mc00_shop/utils/ToastUtils.dart';
 import 'package:mc00_shop/viewmodels/home.dart';
+import 'package:mc00_shop/viewmodels/user.dart';
 
 class MineView extends StatefulWidget {
   MineView({Key? key}) : super(key: key);
@@ -16,7 +19,50 @@ class MineView extends StatefulWidget {
 }
 
 class _MineViewState extends State<MineView> {
-  final Usercontroller _userController = Get.put(Usercontroller());
+  final Usercontroller _userController = Get.find();
+
+  Widget _logOut() {
+    return _userController.user.value.id.isNotEmpty
+        ? Expanded(
+            child: GestureDetector(
+              onTap: () {
+                showDialog(
+                  context: context,
+                  builder: (context) {
+                    return AlertDialog(
+                      title: Text("提示"),
+                      content: Text("确认退出登录吗"),
+                      actions: [
+                        TextButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          child: Text("取消"),
+                        ),
+                        TextButton(
+                          onPressed: () async {
+                            await tokenManager.removeToken(); //清除token
+                            _userController.updateUserInfo(
+                              UserInfo.fromJSON({}),
+                            );
+                            // _userController.clearUserInfo(); //清除用户信息
+                            // tokenManager.clearToken(); //清除token
+                            ToastUtils.showToast(context, "退出登录成功");
+                            Navigator.pop(context);
+                          },
+                          child: Text("确认"),
+                        ),
+                      ],
+                    );
+                  },
+                );
+              },
+              child: Text("退出", textAlign: TextAlign.end),
+            ),
+          )
+        : Text("");
+  }
+
   Widget _buildHeader() {
     return Container(
       decoration: BoxDecoration(
@@ -65,6 +111,9 @@ class _MineViewState extends State<MineView> {
               ],
             ),
           ),
+          Obx(() {
+            return _logOut();
+          }),
         ],
       ),
     );
